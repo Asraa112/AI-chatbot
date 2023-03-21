@@ -1,3 +1,0 @@
-streamlit
-gpt_index==0.4.33
-langchain==0.0.117
