@@ -1,3 +1,0 @@
-!pip install gpt_index==0.4.15
-!pip install langchain==0.0.96
-streamlit
