@@ -28,7 +28,7 @@ print(decoded_data)
 os.environ["OPENAI_API_KEY"] = decoded_data
 
 
-st.title("AI-ChatBot")
+st.title("Asraa-ChatBot")
 
 user_input = st.text_input("Enter your Question here")
 
