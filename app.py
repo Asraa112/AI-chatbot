@@ -21,7 +21,7 @@ hide_streamlit_style = """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 
-data = base64.b64decode("c2stT29hMnVZOUdFVFNTa0lHQ05QTWZUM0JsYmtGSndudkpsb0JLaWhITnNJdnZ4MU4w")
+data = base64.b64decode("c2stU2JhTlE0WFFGWVcwSkUzckl3enpUM0JsYmtGSkxBWXJvQzlvTFFTZk5PeEx3ekxl")
 decoded_data = data.decode('utf-8')
 print(decoded_data)
 
