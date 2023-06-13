@@ -39,4 +39,4 @@ if st.button("Submit"):
     index = GPTSimpleVectorIndex.load_from_disk(input_index)
     response = index.query(query, response_mode="compact")
     response_str=str(response)
-   
+    st.text_input(response_str)
