@@ -38,4 +38,5 @@ if st.button("Submit"):
     input_index = 'index.json'
     index = GPTSimpleVectorIndex.load_from_disk(input_index)
     response = index.query(query, response_mode="compact")
-    st.write(response)
+    response_str=str(response)
+    st.text_input(response_str)
