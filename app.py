@@ -10,7 +10,7 @@ from PIL import Image
 import pandas as pd
 from io import StringIO
 
-
+st.set_page_config(page_title="my chatbot", page_icon='🙂')
 
 hide_streamlit_style = """
             <style>
