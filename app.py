@@ -10,7 +10,7 @@ from PIL import Image
 import pandas as pd
 from io import StringIO
 
-st.beta_set_page_config(page_title='Hello world',page_icon='smiley:')
+
 
 hide_streamlit_style = """
             <style>
