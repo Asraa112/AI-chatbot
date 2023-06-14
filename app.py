@@ -27,7 +27,7 @@ print(decoded_data)
 
 os.environ["OPENAI_API_KEY"] = decoded_data
 
-st.set_page_config(page_title="My ChatBOT",page_icon='🙂')
+
 st.title("TechGenius")
 
 user_input = st.text_input("Enter your Question here")
